@@ -25,19 +25,26 @@ func main() {
 		}
 	}
 
+
+	fmt.Println("\n")
+
 	// another implementation of for loop
 	for i := 1; i <= 10; i++ {
 		fmt.Println("We're counting: ", i)
 	}
 
+	fmt.Println("\n")
 
 	// break continue implementation
 	a := 0
 	for a < 10 {
+		fmt.Println("Count is less than 10", a)
 		if a % 2 == 0 {
 			a++
+			fmt.Println("Increasing by +1", a)
 			continue
 		} else if a == 5 {
+			fmt.Println("Stopping ... count is 5")
 			break
 		}
 
@@ -54,6 +61,8 @@ func main() {
 // James  can retire now!
 // Michael  can vote now!
 // Leigha  can drive now!
+
+
 // We're counting:  1
 // We're counting:  2
 // We're counting:  3
@@ -64,5 +73,17 @@ func main() {
 // We're counting:  8
 // We're counting:  9
 // We're counting:  10
+
+
+// Count is less than 10 0
+// Increasing by +1 1
+// Count is less than 10 1
 // We're counting (again):  1
+// Count is less than 10 2
+// Increasing by +1 3
+// Count is less than 10 3
 // We're counting (again):  3
+// Count is less than 10 4
+// Increasing by +1 5
+// Count is less than 10 5
+// Stopping ... count is 5
