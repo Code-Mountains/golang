@@ -1,5 +1,17 @@
 # git log 
 ```
+commit 4012fcd40b5bbbaab2dc7d81d3bbd51556d93a24
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:16:23 2023 -0500
+
+    for loop counting
+
+commit 3dd59dce6e91c1ccb2367b58fa05a9059b0ba8fc
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:08:11 2023 -0500
+
+    logging
+
 commit 7dd018bd7b517119dc9048958a10971b1381169b
 Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 18:07:56 2023 -0500
