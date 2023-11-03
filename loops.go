@@ -24,6 +24,11 @@ func main() {
 			fmt.Println(fmt.Sprintf("There's nothing special about %s's current age.", name))			
 		}
 	}
+
+	// another implementation of for loop
+	for i := 1; i <= 10; i++ {
+		fmt.Println("We're counting: ", i)
+	}
 }
 
 // OUTPUT
