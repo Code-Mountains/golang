@@ -14,4 +14,14 @@ func main(){
 	} else {
 		fmt.Println("Enjoy retirement Kevin!")
 	}
+
+	// Switch case implementation
+	switch {
+	case ages["Kevin"] < 18:
+		fmt.Println("Kevin can't vote")
+	case ages["Kevin"] < 67:
+		fmt.Println("Kevin is not of retirement age")
+	default: 
+		fmt.Println("Enjoy retirement Kevin!")
+
 }
