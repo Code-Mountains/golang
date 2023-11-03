@@ -29,15 +29,31 @@ func main() {
 	for i := 1; i <= 10; i++ {
 		fmt.Println("We're counting: ", i)
 	}
+
+
+	// break continue implementation
+	a := 0
+	for a < 10 {
+		if a % 2 == 0 {
+			a++
+			continue
+		} else if a == 5 {
+			break
+		}
+
+		fmt.Println("We're counting (again): ", a)
+		a++
+	}
+
 }
 
 // OUTPUT
 // $ go run loops.go 
-// Michael  can vote now!
-// Leigha  can drive now!
 // Kevin's age is a prime number!
 // There's nothing special about Keith's current age.
 // James  can retire now!
+// Michael  can vote now!
+// Leigha  can drive now!
 // We're counting:  1
 // We're counting:  2
 // We're counting:  3
@@ -48,3 +64,5 @@ func main() {
 // We're counting:  8
 // We're counting:  9
 // We're counting:  10
+// We're counting (again):  1
+// We're counting (again):  3
