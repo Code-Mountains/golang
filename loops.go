@@ -33,8 +33,18 @@ func main() {
 
 // OUTPUT
 // $ go run loops.go 
+// Michael  can vote now!
+// Leigha  can drive now!
 // Kevin's age is a prime number!
 // There's nothing special about Keith's current age.
 // James  can retire now!
-// Michael  can vote now!
-// Leigha  can drive now!
+// We're counting:  1
+// We're counting:  2
+// We're counting:  3
+// We're counting:  4
+// We're counting:  5
+// We're counting:  6
+// We're counting:  7
+// We're counting:  8
+// We're counting:  9
+// We're counting:  10
