@@ -1,5 +1,17 @@
 # git log 
 ```
+commit 8858e7946ea90fcfd19e4d27e49ac7d320f78110
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 17:56:25 2023 -0500
+
+    another switch implementation
+
+commit 598942f1dc6e80a676835f9b4fb68208c340c50f
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 17:51:40 2023 -0500
+
+    logging
+
 commit 39802ea1d7b5b601eb47a91a2b0ca2fae89a8240
 Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 17:51:16 2023 -0500
