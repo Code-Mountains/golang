@@ -1,5 +1,15 @@
-# git log 
-```
+commit 65092b5e0c11b35f78a9021421efab918d1c7056
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:26:01 2023 -0500
+
+    more debug
+
+commit 167f27f6bb5af5f849958a94982ff49551524902
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:22:19 2023 -0500
+
+    counting again
+
 commit f883a5a5d7e23132d5523b2206872484ada23244
 Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 18:21:59 2023 -0500
@@ -179,4 +189,3 @@ Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 15:58:33 2023 -0500
 
     go run hello.go
-```
