@@ -10,3 +10,12 @@ func main() {
 	fmt.Println("Equivalent:", 4.0 == 4)
 	fmt.Println("Not equivalent:", 4.1 != 4.1)
 }
+
+// OUTPUT 
+// $ go run booleans.go 
+// Great than: false
+// Less than: true
+// Greater than OR equal: true
+// Less than OR equal: true
+// Equivalent: true
+// Not equivalent: false

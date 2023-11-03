@@ -25,3 +25,11 @@ func main() {
 		}
 	}
 }
+
+// OUTPUT
+// $ go run loops.go 
+// Kevin's age is a prime number!
+// There's nothing special about Keith's current age.
+// James  can retire now!
+// Michael  can vote now!
+// Leigha  can drive now!

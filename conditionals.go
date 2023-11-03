@@ -38,3 +38,9 @@ func main(){
 		fmt.Println("There's nothing special about Kevin's current age")
 	}
 }
+
+// OUTPUT 
+// $ go run conditionals.go 
+// Kevin is not of retirement age
+// Kevin is not of retirement age
+// There's nothing special about Kevin's current age

@@ -7,3 +7,7 @@ func main() {
 
 	fmt.Println(names)
 }
+
+// OUTPUT 
+// $ go run arrays.go 
+// [Keith Kevin Kayla]

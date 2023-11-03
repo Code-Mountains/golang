@@ -11,3 +11,7 @@ func main() {
 
 	fmt.Println(birthdays)
 }
+
+// OUTPUT 
+// $ go run maps.go 
+// map[Kayla:06/24/1975 Keith:02/02/1990 Kiran:04/19/1995]

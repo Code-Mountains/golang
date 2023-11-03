@@ -11,3 +11,10 @@ func main() {
 	fmt.Println("val is:", val)
 	fmt.Println("ok is:", ok)
 }
+
+// OUTPUT 
+// $ go run variables.go 
+// myInt is: 16
+// myInt times two: 32
+// val is: yes
+// ok is: true

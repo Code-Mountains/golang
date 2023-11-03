@@ -10,3 +10,7 @@ func main() {
 	fmt.Println("Exponents:", math.Pow(7,3))
 }
 
+// OUTPUT 
+// $ go run math.go 
+// Division: 6.666666666666667
+// Exponents: 343
