@@ -1,5 +1,17 @@
 # git log 
 ```
+commit 7dd018bd7b517119dc9048958a10971b1381169b
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:07:56 2023 -0500
+
+    output
+
+commit a4641e4b79e89ac76eab0204e4690b9220536d7a
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:03:53 2023 -0500
+
+    git loops
+
 commit 97cc3878df2761a0d2251e2681675d10e3edee28
 Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 18:03:36 2023 -0500
