@@ -1,5 +1,23 @@
 # git log 
 ```
+commit f883a5a5d7e23132d5523b2206872484ada23244
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:21:59 2023 -0500
+
+    break continue
+
+commit 0342263aa6c256eb9339486615eaa13fc8c98c71
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:17:37 2023 -0500
+
+    outputs
+
+commit 1057ad34cae524443cef893eca99686cc92db04e
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:16:44 2023 -0500
+
+    logs output
+
 commit 4012fcd40b5bbbaab2dc7d81d3bbd51556d93a24
 Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 18:16:23 2023 -0500
