@@ -1,4 +1,21 @@
-```
+commit 6641b1ab6ceb06adfc66681026cdb47c811f47cd
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 17:40:07 2023 -0500
+
+    conditional.go
+
+commit 56f847266e0a0d3f626e230fcd92a609b1597dad
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 17:32:00 2023 -0500
+
+    ```
+
+commit ff387e307b0cc70ab7e396971e1e2f162ff67792
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 17:31:36 2023 -0500
+
+    readme.md upd
+
 commit 85462145b5879b3d11a8ca6c02e96d051d47fcd1
 Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 17:31:24 2023 -0500
@@ -58,4 +75,3 @@ Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 15:58:33 2023 -0500
 
     go run hello.go
-```
