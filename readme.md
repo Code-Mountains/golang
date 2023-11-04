@@ -1,5 +1,23 @@
 # git log 
 ```
+commit b241b78318f92fbd9effa435d646d1037ca53796
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 19:09:23 2023 -0500
+
+    input.go
+
+commit 0d72297db99d6c0eedecce8e2310bd2360dc7a97
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:34:06 2023 -0500
+
+    functions
+
+commit 42c8a599d2f45f3b5c1e7f0c796e2dffd536aad8
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 18:33:42 2023 -0500
+
+    functinos
+
 commit 56a5cc69ec94fd90beb28bff9fe9cc3a950f8f17
 Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 18:33:32 2023 -0500
