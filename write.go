@@ -1,8 +1,9 @@
-package main 
+package main
 
 import (
 	"bufio"
 	"fmt"
+
 	// "io/ioutil"
 	"motd/message"
 	"os"
@@ -19,17 +20,17 @@ func main() {
 
 	defer f.Close()
 
-	reader := bufio.NewReader(os.Stdin) 
+	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Your Greeting: ")
 	phrase, _ := reader.ReadString('\n')
-	phrase = strings.TrimSpace(phrase) 
+	phrase = strings.TrimSpace(phrase)
 
 	fmt.Print("Your Name: ")
 	name, _ := reader.ReadString('\n')
-	name = strings.TrimSpace(name) 
+	name = strings.TrimSpace(name)
 
 	m := "\n"
-	m += message.Greeting(name, phrase) 
+	m += message.Greeting(name, phrase)
 	m += "\n\n"
 
 	_, err = f.Write([]byte(m))
@@ -40,10 +41,23 @@ func main() {
 	}
 }
 
-// OUTPUT 
-// $ sudo go run write.go 
+func renderPrompt() (name, greeting string) {
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Print("Your Greeting: ")
+	greeting, _ = reader.ReadString('\n')
+	greeting = strings.TrimSpace(greeting)
+
+	fmt.Print("Your Name: ")
+	name, _ = reader.ReadString('\n')
+	name = strings.TrimSpace(name)
+
+	return
+}
+
+// OUTPUT
+// $ sudo go run write.go
 // Your Greeting: Greetings
 // Your Name: Young Padawan!
-// $ cat /etc/motd 
+// $ cat /etc/motd
 
 // Greetings, Young Padawan!

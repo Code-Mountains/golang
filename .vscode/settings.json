@@ -1,0 +1,13 @@
+{
+  "[go]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    }
+  },
+  "go.formatTool": "gofmt",
+  "go.useLanguageServer": true,
+  "go.languageServerExperimentalFeatures": {
+    "format": false
+  }
+}
