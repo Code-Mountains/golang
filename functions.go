@@ -7,11 +7,11 @@ func main() {
 	fmt.Println(message)
 }
 
-// func greeting(name string, message string) string {
-// 	return fmt.Sprintf("%s, %s", message, name)
-// }
-
 func greeting(name, message string) (salutation string) {
 	salutation = fmt.Sprintf("%s, %s", message, name)
 	return
 }
+
+// OUTPUT 
+// $ go run functions.go 
+// Hello, Keith
