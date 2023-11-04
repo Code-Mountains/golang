@@ -28,7 +28,10 @@ func main() {
 	name, _ := reader.ReadString('\n')
 	name = strings.TrimSpace(name) 
 
-	m := message.Greeting(name, phrase) 
+	m := "\n"
+	m += message.Greeting(name, phrase) 
+	m += "\n\n"
+
 	_, err = f.Write([]byte(m))
 
 	if err != nil {
@@ -36,3 +39,11 @@ func main() {
 		os.Exit(1)
 	}
 }
+
+// OUTPUT 
+// $ sudo go run write.go 
+// Your Greeting: Greetings
+// Your Name: Young Padawan!
+// $ cat /etc/motd 
+
+// Greetings, Young Padawan!
