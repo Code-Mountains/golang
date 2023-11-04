@@ -12,6 +12,12 @@ func main() {
 
 
 // OUTPUT 
+
+// $ DEBUG=true ./Code-Mountains -n "Kiran" -g "Aloha"
+// Name:  Kiran
+// Greeting:  Aloha
+// Prompt:  false
+
 // $ DEBUG=true go run main.go 
 // Usage:
 //   Code-Mountains [flags]
