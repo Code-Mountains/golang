@@ -19,7 +19,7 @@ func main() {
 	// Parse Flags
 	flag.StringVar(&name, "name", "", "name to use within the message")
 	flag.StringVar(&greeting, "greeting", "", "phrase to use within the greeting")
-	flag.BoolVar(&prompt, "prompt", false, "use prompt to input name and message")
+	flag.BoolVar(&prompt, "preview", false, "use prompt to input name and message")
 	flag.BoolVar(&preview, "preview", false, "use preview to output message without writing to /etc/motd")
 
 	flag.Parse()
@@ -46,7 +46,8 @@ func main() {
 	}
 
 	// Generate message
-	message := "\n" + message.Greeting(name, greeting)
+	message := "\n"
+	message += message.Greeting(name, greeting)
 	message += "\n\n"
 
 	// Either preview the message or write to file
@@ -85,24 +86,3 @@ func renderPrompt() (name, greeting string) {
 
 	return
 }
-
-
-// OUTPUT 
-
-// $ go run main.go 
-// Usage of /tmp/go-build3713020344/b001/exe/main:
-//   -greeting string
-//         phrase to use within the greeting
-//   -name string
-//         name to use within the message
-//   -preview
-//         use preview to output message without writing to /etc/motd
-//   -prompt
-//         use prompt to input name and message
-// exit status 1
-
-// $ DEBUG=true sudo go run main.go -greeting "Aloha" -name "Amanda the Young Padawan"
-
-// $ cat /etc/motd 
-
-// Aloha, Amanda the Young Padawan

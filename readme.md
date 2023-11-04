@@ -1,3 +1,8 @@
+# go comds: 
+```
+$ go get github.com/spf13/cobra
+```
+
 # git log 
 ```
 commit 7220faa480a85e2b4595be706f54890c3319942b
