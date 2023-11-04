@@ -1,5 +1,17 @@
 # git log 
 ```
+commit 7220faa480a85e2b4595be706f54890c3319942b
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Sat Nov 4 10:31:00 2023 -0500
+
+    cli.go
+
+commit aec2892d31b24423e32610af53b4a9abe48d68d0
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Fri Nov 3 19:46:07 2023 -0500
+
+    read write to file stream
+
 commit 41a44235347cf344bac85001d30ab9cf5ffe4b6b
 Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 19:45:43 2023 -0500
@@ -245,5 +257,4 @@ Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Fri Nov 3 15:58:33 2023 -0500
 
     go run hello.go
-
 ```
