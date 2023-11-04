@@ -1,10 +1,29 @@
-# go comds: 
-```
-$ go get github.com/spf13/cobra
-```
-
 # git log 
 ```
+commit a65cfebe069ad4ca13f8e7e2f70ce07079637f28
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Sat Nov 4 16:42:57 2023 -0500
+
+    Code Mountains go module
+
+commit 186205212967a1da493c8d3cf0fc1a0fff28e2e2
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Sat Nov 4 16:40:39 2023 -0500
+
+    new changes
+
+commit a05f42972108c1505c0bee54f996f18f1955f5de
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Sat Nov 4 10:33:17 2023 -0500
+
+    output of cli
+
+commit 4ed7ef52ad3f14c21cce01ef6c087691cc3cc92c
+Author: Code Mountains <thecodemountains@gmail.com>
+Date:   Sat Nov 4 10:31:20 2023 -0500
+
+    building a cli with go
+
 commit 7220faa480a85e2b4595be706f54890c3319942b
 Author: Code Mountains <thecodemountains@gmail.com>
 Date:   Sat Nov 4 10:31:00 2023 -0500
