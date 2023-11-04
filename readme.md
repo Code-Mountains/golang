@@ -1,3 +1,16 @@
+# go build 
+```
+$ GOOS=darwin GOARCH=amd64 go build -o app.darwin 
+
+$ GOOS=freebsd GOARCH=amd64 go build -o app.freebsd 
+
+$ go build -o app.linux 
+
+$ ls 
+app.darwin app.freebsd app.linux main.go 
+
+```
+
 # git log
 ```
 commit 69d0a296a7f6bb52660020c03ab56637d167a9a4
